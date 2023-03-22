@@ -1,0 +1,10 @@
+{
+  "natid": "natid",
+  "name": "h",
+  "gender": "MALE",
+  "birthDate": "2020-01-01",
+  "deathDate": null,
+  "salary": 3000.00,
+  "taxPaid": 10.00,
+  "browniePoints": null
+}

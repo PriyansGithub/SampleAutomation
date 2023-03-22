@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="SampleAutomation">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.APITestingOfHero"/>
+            <class name="testCases.APITestingFieldValidationHappyPath"/>
+            <class name="testCases.APITestingFieldValidationNegativeFlow"/>
+            <class name="testCases.APITestingDuplicateNatId"/>
+            <class name="testCases.VerifyFileUploadWithWrongData"/>
+            <!--<class name="testCases.VerifyFileUploadWithCorrectData"/>-->
+            <class name="testCases.VerifyBackButtonNavigationInClerk"/>
+            <class name="testCases.AddHeroViaUIWithCorrectData"/>
+            <class name="testCases.VerifyListAllOfGov"/>
+            <class name="testCases.NatIdInSearchBar"/>
+            <class name="testCases.NameInSearchBar"/>
+            <class name="testCases.SearchByUniqueNatIdGov"/>
+            <class name="testCases.SearchByInvalidNatIdGov"/>
+            <class name="testCases.ResetOnClearingSearchBar"/>
+        </classes>
+    </test>
+</suite>

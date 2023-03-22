@@ -1,0 +1,8 @@
+{
+  "username": "clerk",
+  "password": "pwd",
+  "filePathWithCorrectData": "resources/mytestCorrect.csv",
+  "expectedUploadMessage": "created Successfully!",
+  "fileName": "mytestCorrect.csv",
+  "query": "select col from WORKING_CLASS_HEROES"
+}

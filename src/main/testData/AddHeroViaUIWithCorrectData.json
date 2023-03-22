@@ -1,0 +1,14 @@
+{
+  "username": "clerk",
+  "password": "pwd",
+  "natId": "natid-",
+  "name": "Priyanshu Gandhi",
+  "gender": "Female",
+  "birthDate": "2000-10-22",
+  "deathDate": "",
+  "browniePoints": "10",
+  "salary": "1000",
+  "taxPaid": "10",
+  "query": "select count(Nat_Id) from WORKING_CLASS_HEROES where Nat_id='{natIdFromCode}'",
+  "expectedUIMessage": "Created Successfully!"
+}

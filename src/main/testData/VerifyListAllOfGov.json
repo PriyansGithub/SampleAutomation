@@ -1,0 +1,5 @@
+{
+  "username": "gov",
+  "password": "pwd",
+  "query": "select count(Nat_Id) from WORKING_CLASS_HEROES"
+}

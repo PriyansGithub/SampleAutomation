@@ -1,0 +1,8 @@
+{
+  "username": "clerk",
+  "password": "pwd",
+  "filePathWithWrongData": "resources/mytestIncorrect.csv",
+  "expectedUploadMessage": "Unable to create hero!",
+  "fileName": "mytestIncorrect.csv",
+  "query": "select col from WORKING_CLASS_HEROES"
+}
